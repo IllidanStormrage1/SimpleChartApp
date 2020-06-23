@@ -19,3 +19,4 @@ dependencies {
 	implementation 'com.github.IllidanStormrage1:SimpleChartApp:v1.0'
 }
 ```
+

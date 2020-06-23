@@ -12,9 +12,9 @@ class MainActivity : AppCompatActivity() {
 
         val mockData = mutableListOf<Double>()
         repeat(10) {
-            mockData.add(Random.nextDouble(1.8, 11.5))
+            mockData.add(Random.nextDouble(1.0, 11.0))
         }
 
-        chartView.addAll(listOf(1.0,2.0))
+        chartView.addAll(mockData)
     }
 }

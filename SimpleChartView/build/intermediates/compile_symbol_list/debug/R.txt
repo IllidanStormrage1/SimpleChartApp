@@ -113,6 +113,7 @@ int attr colorPrimaryDark 0x0
 int attr colorSwitchThumbNormal 0x0
 int attr columnColor 0x0
 int attr columnCornerRadius 0x0
+int attr columnSpacing 0x0
 int attr commitIcon 0x0
 int attr contentDescription 0x0
 int attr contentInsetEnd 0x0
@@ -176,7 +177,6 @@ int attr indeterminateProgressStyle 0x0
 int attr initialActivityCount 0x0
 int attr isLightTheme 0x0
 int attr itemPadding 0x0
-int attr itemSpacing 0x0
 int attr lastBaselineToBottomHeight 0x0
 int attr layout 0x0
 int attr lineHeight 0x0
@@ -1434,7 +1434,7 @@ int styleable ChartView_axisColorXY 1
 int styleable ChartView_axisXYWidthStroke 2
 int styleable ChartView_columnColor 3
 int styleable ChartView_columnCornerRadius 4
-int styleable ChartView_itemSpacing 5
+int styleable ChartView_columnSpacing 5
 int[] styleable ColorStateListItem { 0x0, 0x101031f, 0x10101a5 }
 int styleable ColorStateListItem_alpha 0
 int styleable ColorStateListItem_android_alpha 1

@@ -4,7 +4,7 @@
         <attr name="columnColor" format="color" />
         <attr name="axisColor" format="color" />
         <attr name="axisColorXY" format="color" />
-        <attr name="itemSpacing" format="dimension" />
+        <attr name="columnSpacing" format="dimension" />
         <attr name="columnCornerRadius" format="dimension" />
         <attr name="axisXYWidthStroke" format="dimension" />
     </declare-styleable>

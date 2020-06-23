@@ -5,5 +5,5 @@ attr? axisColorXY
 attr? axisXYWidthStroke
 attr? columnColor
 attr? columnCornerRadius
-attr? itemSpacing
-styleable ChartView columnColor axisColor axisColorXY itemSpacing columnCornerRadius axisXYWidthStroke
+attr? columnSpacing
+styleable ChartView columnColor axisColor axisColorXY columnSpacing columnCornerRadius axisXYWidthStroke

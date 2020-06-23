@@ -51,7 +51,7 @@ class ChartView @JvmOverloads constructor(
                 getColor(R.styleable.ChartView_axisColor, Color.TRANSPARENT)
             xyAxisPaint.color =
                 getColor(R.styleable.ChartView_axisColorXY, Color.TRANSPARENT)
-            columnSpacing = getDimension(R.styleable.ChartView_itemSpacing, 0f)
+            columnSpacing = getDimension(R.styleable.ChartView_columnSpacing, 0f)
             columnCornerRadius = getDimension(R.styleable.ChartView_columnCornerRadius, 0f)
             xyAxisPaint.strokeWidth = getDimension(R.styleable.ChartView_axisXYWidthStroke, 2f)
         }
@@ -81,8 +81,8 @@ class ChartView @JvmOverloads constructor(
                     (height - paddingBottom - viewportHeight / maxItemHeight * it).toFloat(),
                     paddingStart + (i + 1) * itemWidth - columnSpacing,
                     height - paddingBottom.toFloat(),
-                    columnCornerRadius/2,
-                    columnCornerRadius/2,
+                    columnCornerRadius / 2,
+                    columnCornerRadius / 2,
                     columnPaint
                 )
                 drawRect(

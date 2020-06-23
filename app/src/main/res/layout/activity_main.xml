@@ -14,11 +14,12 @@
         android:layout_height="300dp"
         android:layout_margin="16dp"
 
-        app:itemSpacing="4dp"
-        app:columnColor="#81C784"
-        app:axisColor="#A5D6A7"
-        app:axisColorXY="@android:color/secondary_text_light"
-        app:axisXYWidthStroke="4dp"
-        app:columnCornerRadius="4dp" />
+
+        app:columnSpacing="4dp"
+        app:columnColor="#81D4FA"
+        app:axisColor="#614FC3F7"
+        app:axisXYWidthStroke="6dp"
+        app:axisColorXY="#0277BD"
+        app:columnCornerRadius="6dp" />
 
 </FrameLayout>

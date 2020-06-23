@@ -1,6 +1,7 @@
 *.iml
 .gradle
 /local.properties
+/.idea
 /.idea/caches
 /.idea/libraries
 /.idea/modules.xml
@@ -12,3 +13,26 @@
 /captures
 .externalNativeBuild
 .cxx
+Будет удалено SimpleChartView/build/dagger-plugin/
+Будет удалено SimpleChartView/build/generated/ap_generated_sources/
+Будет удалено SimpleChartView/build/generated/res/
+Будет удалено SimpleChartView/build/intermediates/aar_libs_directory/
+Будет удалено SimpleChartView/build/intermediates/annotations_zip/
+Будет удалено SimpleChartView/build/intermediates/compiled_local_resources/
+Будет удалено SimpleChartView/build/intermediates/data_binding_layout_info_type_package/
+Будет удалено SimpleChartView/build/intermediates/generated_proguard_file/
+Будет удалено SimpleChartView/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/
+Будет удалено SimpleChartView/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/
+Будет удалено SimpleChartView/build/intermediates/incremental/packageDebugResources/stripped.dir/
+Будет удалено SimpleChartView/build/intermediates/library_and_local_jars_jni/
+Будет удалено SimpleChartView/build/intermediates/library_assets/
+Будет удалено SimpleChartView/build/intermediates/library_jni/
+Будет удалено SimpleChartView/build/intermediates/lint_publish_jar/
+Будет удалено SimpleChartView/build/intermediates/merged_jni_libs/
+Будет удалено SimpleChartView/build/intermediates/merged_native_libs/
+Будет удалено SimpleChartView/build/intermediates/merged_shaders/
+Будет удалено SimpleChartView/build/intermediates/public_res/
+Будет удалено SimpleChartView/build/tmp/compileDebugJavaWithJavac/
+Будет удалено SimpleChartView/libs/
+Будет удалено SimpleChartView/sampledata/
+Будет удалено app/libs/

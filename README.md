@@ -19,6 +19,27 @@ dependencies {
 	implementation 'com.github.IllidanStormrage1:SimpleChartApp:v1.0'
 }
 ```
+### Step 3. How to use
+Add in XML:
+```
+    <ru.zudov.simplechartview.ChartView
+        android:id="@+id/chartView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:axisColor="#614FC3F7"
+        app:axisColorXY="#0277BD"
+        app:axisXYWidthStroke="6dp"
+        app:columnColor="#81D4FA"
+        app:columnCornerRadius="6dp"
+        app:columnSpacing="4dp" />
+        app:columnCornerRadius="6dp" />
+```
+Add data in chart:
+```
+// or chartView.add(1.0)
+chartView.addAll(listOf(1.0,2.0)) 
+```
+
+### Step 4. Result
 <img src="https://github.com/IllidanStormrage1/SimpleChartApp/blob/master/Screenshots/1.jpg" width="287"/>
 <img src="https://github.com/IllidanStormrage1/SimpleChartApp/blob/master/Screenshots/2.jpg" width="287"/> 
-

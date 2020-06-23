@@ -19,7 +19,7 @@ dependencies {
 	implementation 'com.github.IllidanStormrage1:SimpleChartApp:v1.0'
 }
 ```
-<img src="https://github.com/IllidanStormrage1/SimpleChartApp/blob/master/Screenshots/1.jpg/> 
+<img src="https://github.com/IllidanStormrage1/SimpleChartApp/blob/master/Screenshots/1.jpg" width="287"/> 
 	  
-<img src="https://github.com/IllidanStormrage1/SimpleChartApp/blob/master/Screenshots/2.jpg"/> 
+<img src="https://github.com/IllidanStormrage1/SimpleChartApp/blob/master/Screenshots/2.jpg" width="287"/> 
 

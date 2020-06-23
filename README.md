@@ -22,8 +22,8 @@ dependencies {
 ### Step 3. How to use
 Add in XML:
 ```
-    <ru.zudov.simplechartview.ChartView
-        android:id="@+id/chartView"
+<ru.zudov.simplechartview.ChartView
+	android:id="@+id/chartView"
         android:layout_width="match_parent"
         android:layout_height="300dp"
         app:axisColor="#614FC3F7"
@@ -35,20 +35,20 @@ Add in XML:
 ```
 Add data in chart:
 ```
-// or chartView.add(1.0)
+// Or chartView.add(1.0)
 chartView.addAll(listOf(1.0,2.0)) 
 ```
-app:axisColor="#614FC3F7" - stripe color back
+* app:axisColor="#614FC3F7" - stripe color back
 
-app:columnColor="#81D4FA" - column color
+* pp:columnColor="#81D4FA" - column color
 
-app:axisColorXY="#0277BD" - color of two main axes
+* app:axisColorXY="#0277BD" - color of two main axes
 
-app:axisXYWidthStroke="6dp" - width of two main axes
+* app:axisXYWidthStroke="6dp" - width of two main axes
 
-app:columnCornerRadius="6dp" - column radius
+* app:columnCornerRadius="6dp" - column radius
 
-app:columnSpacing="4dp" - space between columns
+* app:columnSpacing="4dp" - space between columns
 
 ### Step 4. Result
 <img src="https://github.com/IllidanStormrage1/SimpleChartApp/blob/master/Screenshots/1.jpg" width="287"/>

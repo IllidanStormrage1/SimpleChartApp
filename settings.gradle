@@ -1,0 +1,3 @@
+include ':SimpleChartView'
+include ':app'
+rootProject.name = "SimpleChartApp"

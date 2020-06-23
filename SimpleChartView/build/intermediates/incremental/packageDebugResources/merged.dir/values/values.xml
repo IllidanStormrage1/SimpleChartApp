@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ChartView">
+        <attr format="color" name="columnColor"/>
+        <attr format="color" name="axisColor"/>
+        <attr format="color" name="axisColorXY"/>
+        <attr format="dimension" name="itemSpacing"/>
+        <attr format="dimension" name="columnCornerRadius"/>
+        <attr format="dimension" name="axisXYWidthStroke"/>
+    </declare-styleable>
+</resources>

@@ -15,6 +15,7 @@ allprojects {
 ### Step 2.   Add the dependency
 ```
 dependencies {
+	...
 	implementation 'com.github.IllidanStormrage1:SimpleChartApp:v1.0'
 }
 ```

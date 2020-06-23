@@ -19,4 +19,6 @@ dependencies {
 	implementation 'com.github.IllidanStormrage1:SimpleChartApp:v1.0'
 }
 ```
+<img src="https://github.com/IllidanStormrage1/SimpleChartApp/tree/master/Screenshots/1.jpg"/> 
+<img src="https://github.com/IllidanStormrage1/SimpleChartApp/tree/master/Screenshots/2.jpg"/> 
 

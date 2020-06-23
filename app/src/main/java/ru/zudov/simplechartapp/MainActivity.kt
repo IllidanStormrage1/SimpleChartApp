@@ -15,6 +15,6 @@ class MainActivity : AppCompatActivity() {
             mockData.add(Random.nextDouble(1.8, 11.5))
         }
 
-        chartView.addAll(mockData)
+        chartView.addAll(listOf(1.0,2.0))
     }
 }

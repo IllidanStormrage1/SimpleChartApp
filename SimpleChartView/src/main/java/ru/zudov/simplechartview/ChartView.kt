@@ -110,6 +110,5 @@ class ChartView @JvmOverloads constructor(
                 )
             }
         }
-        super.onDraw(canvas)
     }
 }

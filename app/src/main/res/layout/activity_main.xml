@@ -1,25 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
     <ru.zudov.simplechartview.ChartView
-        android:layout_gravity="center"
         android:id="@+id/chartView"
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:layout_margin="16dp"
-
-
-        app:columnSpacing="4dp"
-        app:columnColor="#81D4FA"
         app:axisColor="#614FC3F7"
-        app:axisXYWidthStroke="6dp"
         app:axisColorXY="#0277BD"
-        app:columnCornerRadius="6dp" />
+        app:axisXYWidthStroke="6dp"
+        app:columnColor="#81D4FA"
+        app:columnCornerRadius="6dp"
+        app:columnSpacing="4dp" />
 
 </FrameLayout>
